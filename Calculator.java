@@ -6,11 +6,11 @@ public class Calculator {
 		Scanner scanner = new Scanner(System.in);
 		Scanner question = new Scanner(System.in); 
 		System.out.println("Please enter the first number");
-		int x = scanner.nextInt();
+		double x = scanner.nextDouble();
 		
 		System.out.println("Please enter the second number");
 		
-		int y=scanner.nextInt();
+		double y=scanner.nextInt();
 		
 		
 		
@@ -19,20 +19,20 @@ public class Calculator {
 		 
 		 
 		if (answer.equalsIgnoreCase("Subtract")) {
-		int sum = x - y; 
+		double sum = x - y; 
 		System.out.println(x-y); 
 		
 	
 		}else if (answer.equalsIgnoreCase("Add")) {
-		int sum = x + y; 
+		double sum = x + y; 
 		System.out.println(x+y); 
 	
 	}else if (answer.equalsIgnoreCase("Multiply")) {
-		int sum = x * y; 
+		double sum = x * y; 
 		System.out.println(x*y); 
 	
 	}else if (answer.equalsIgnoreCase("divide")) {
-		int sum = x / y; 
+		double sum = x / y; 
 		System.out.println(x/y); 
 	
 }
