@@ -14,7 +14,7 @@ public class Calculator {
 		
 		
 		
-		 System.out.println("would you like to add or subtract these two numbers "); 
+		 System.out.println("would you like to add, subtract, multiply, or divide these two numbers "); 
 		 String answer = question.nextLine();
 		 
 		 
@@ -26,8 +26,16 @@ public class Calculator {
 		}else if (answer.equalsIgnoreCase("Add")) {
 		int sum = x + y; 
 		System.out.println(x+y); 
-	}
+	
+	}else if (answer.equalsIgnoreCase("Multiply")) {
+		int sum = x * y; 
+		System.out.println(x*y); 
+	
+	}else if (answer.equalsIgnoreCase("divide")) {
+		int sum = x / y; 
+		System.out.println(x/y); 
+	
 }
 		}
 	 
-	
+}
