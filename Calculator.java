@@ -34,8 +34,11 @@ public class Calculator {
 	}else if (answer.equalsIgnoreCase("divide")) {
 		double sum = x / y; 
 		System.out.println(x/y); 
+		if (y == 0); {
+			System.out.println("Error: Divide by Zero"); 
+	}
 	
-}
+	} 
 		}
 	 
 }
